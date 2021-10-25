@@ -33,16 +33,16 @@ int main (){
 		h = 31 + 28 + 31 + 30 + 31 + 30 + 31 + A;
 		printf ("La ngay thu: %d",h);
 	}else if(B==9){
-		i = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + A;
+		i = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + A;
 		printf ("La ngay thu: %d",i);
 	}else if(B==10){
-		j = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + 31 + A;
+		j = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + A;
 		printf ("La ngay thu: %d",j);
 	}else if(B==11){
-		k = 31 + 28 + 31 + 30 + 31 + 31 + 31 + 30 + 31 + 30 +A;
+		k = 31 + 28 + 31 + 30 + 31 + 31 + 31 + 31 + 30 + 31 + A;
 		printf ("La ngay thu: %d",k);
 	}else if(B==12){
-		l = 31 + 28 + 31 + 30 + 31 + 31 + 31 + 30 + 31 + 30 + 31 + A;
+		l = 31 + 28 + 31 + 30 + 31 + 31 + 31 + 31 + 30 + 31 + 30 + A;
 		printf ("La ngay thu: %d",l);
 	}else{ 
 		printf ("khong phai thang trong nam");
@@ -111,7 +111,7 @@ int main (){
 		printf ("thu: %d",thang12)
 			;break;
 		};
-		default: printf("khong phai thang trong nam");
+		default: printf("");
 	}
 }
 	
